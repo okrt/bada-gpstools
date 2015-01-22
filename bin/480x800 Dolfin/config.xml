@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" height="450" id="0x100024f1" version="1.0" width="400">
+    <title>GPSTools</title>
+    <description/>
+    <icon src="icon.png"/>
+    <content src="index.html"/>
+    <access network="true"/>
+    <author email="oguz@oguzkirat.com" href="http://www.oguzkirat.com">Oguz Kirat</author>
+    <feature name="http://bondi.omtp.org/api/geolocation.position" required="false"/>
+    <feature name="http://bondi.omtp.org/api/devicestatus.get" required="false"/>
+    <feature name="http://bondi.omtp.org/api/devicestatus.set" required="false"/>
+    <feature name="http://bondi.omtp.org/api/devicestatus.list" required="false"/>
+</widget>

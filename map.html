@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GPSTools</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="mainw">
+<div id="map">
+<table width="100%" border="0">
+  <tr>
+    <td><span id="controls"><img src="images/zoomin.png" width="45" height="45" alt="Zoom In" onclick="javascript:zoomin();" align="left" /><img src="images/zoomout.png" width="45" height="45" alt="Zoom Out" onclick="javascript:zoomout();" align="left" /><img src="images/changeview.png" width="45" height="45" alt="Change View" onclick="javascript:changeMapType();" align="left" /><img align="right" src="images/info.png"  onclick="javascript:window.location='info.html';" width="45" height="45" alt="Info" /></span></td>
+  </tr>
+  <tr>
+    <td height="355" align="center"><div id="load"><p><img src="images/loading.gif" width="54" height="55" alt="Loading" /></p>
+      <script type="text/javascript">
+var language=bondi.devicestatus.getPropertyValue({ aspect: 'OperatingSystem', property:'language'});
+if (language=="tur")
+	{
+	document.write('<p>GPS bağlantısı bekleniyor...</p>');
+
+	}
+else
+{
+	document.write('<p>Waiting for GPS connection...</p>');
+
+}
+</script></div></td>
+    </tr>
+
+
+</table>
+</div>
+  <p>&nbsp;</p>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+appInit();
+</script>
+<img id="preloader" name="preloader" src="images/loading.gif" width="0" height="0" />
+</div>
+</body>
+</html>

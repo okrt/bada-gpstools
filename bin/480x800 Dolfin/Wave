@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8" /><object id=npbondiruntime type=application/vnd.uievolution.npbondiruntime width=0 height=0 style=visibility:hidden;></object><script>
+function debug_init() { 
+    var runtime = document.getElementById("npbondiruntime");
+    var file = runtime.resolve("C:/Users/Oguz/workspace/GPSTools/bin/480x800 Dolfin/.debuglock");
+    if (file) file.deleteSelf();
+    var delay = false ? 500 : 1;
+    setTimeout(function() { document.getElementById("uie-emulator-frame").src="index.html" },delay);
+}
+</script></head><body onload="debug_init();" id="uie-emulator-framebody" style="background-image: url('com.uievolution.widget.browser.background.Wave.png'); background-repeat: no-repeat; background-attachment:fixed;"><div id="uie-emulator-framediv" style="position: absolute; left: 69px; top: 300px"><iframe id="uie-emulator-frame" scrolling="no" frameborder="0" style="margin-left: 0px; margin-top: 0px; visibility: visible; left: 0px; top: 0px; padding: 0px" width="400px" height="450px"></iframe></div></body></html>

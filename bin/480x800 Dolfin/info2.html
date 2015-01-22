@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript">window._uieNetworkAccess=true;window._uieScreenWidth=480;window._uieScreenHeight=800</script><script type="text/javascript" src="js/TouchWiz.1.0.js"></script><script type="text/javascript" src="js/bondi.js"></script><script type="text/javascript" src="js/.preview_data.js"></script><script type="text/javascript" src="js/bondi.appconfig.js"></script><script type="text/javascript" src="js/bondi.applauncher.js"></script><script type="text/javascript" src="js/bondi.devicestatus.js"></script><script type="text/javascript" src="js/bondi.filesystem.js"></script><script type="text/javascript" src="js/bondi.gallery.js"></script><script type="text/javascript" src="js/bondi.geolocation.js"></script><script type="text/javascript" src="js/bondi.pim.calendar.js"></script><script type="text/javascript" src="js/bondi.pim.contact.js"></script><script type="text/javascript" src="js/bondi.pim.task.js"></script><script type="text/javascript" src="js/bondi.ui.js"></script><script type="text/javascript" src="js/bondi.test.js"></script><object id='npbondiruntime' type='application/vnd.uievolution.npbondiruntime' width='0' height='0' style='visibility:hidden;'></object>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GPSTools</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="mainw">
+<div id="map">
+<table width="100%" border="0">
+  <tr>
+    <td height="355" align="center"><div id="info"><p><img src="images/loading.gif" width="54" height="55" alt="Loading" /></p>
+      <script type="text/javascript">
+var language=bondi.devicestatus.getPropertyValue({ aspect: 'OperatingSystem', property:'language'});
+if (language=="tur")
+	{
+	document.write('<p>GPS bağlantısı bekleniyor...</p>');
+
+	}
+else
+{
+	document.write('<p>Waiting for GPS connection...</p>');
+
+}
+</script></div></td>
+  </tr>
+  <tr>
+    <td><span id="controls"><img src="images/back.png" width="45" height="45" alt="Back" onclick="javascript:window.location='info.html';" align="left" /><img src="images/next.png" width="45" height="45" alt="Next" onclick="javascript:window.location='info3.html';" align="left" /><img align="right" src="images/map.png"  onclick="javascript:window.location='map.html';" width="45" height="45" alt="Map" /></span></td>
+  </tr>
+</table>
+  <p>&nbsp;</p>
+</div>
+<script type="text/javascript">
+var page="altitude";
+</script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+appInit();
+</script>
+<img id="preloader" name="preloader" src="images/loading.gif" width="0" height="0" />
+</div>
+
+</body>
+</html>

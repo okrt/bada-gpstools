@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+#main {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color:#0099FF;
+	font-size: 12px;
+	border-radius:10px;
+	width:400px;
+	height:400px;
+}
+#mainw {
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color:#FFF;
+	font-size: 12px;
+	border-radius:20px;
+	width:400px;
+	height:400px;
+
+}
+#map {
+	font-family: Verdana, Geneva, sans-serif;
+ 	background-color:#FFFFFF;
+	background-repeat:no-repeat;
+	font-size: 12px;
+	border-radius:10px;
+	width:400px;
+	height:400px;
+}
+#info
+{
+	text-align:center;
+
+}
+.buyuk {
+	font-size: 36px;
+}
+.title
+{
+font-size: 42px;
+background-color:#09F;
+border-radius:10px;
+}
